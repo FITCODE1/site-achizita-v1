@@ -22,7 +22,6 @@ h2 {
 h3 {
 	font-size: 16px;
 	font-weight: 700;
-	color: #555;
 }
 h4 {
 	font-weight: 500;
@@ -32,6 +31,18 @@ h5 {
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 20px;
+}
+h6 {
+	font-size: 17px;
+	font-weight: 400;
+    color: #ffffff;
+	margin: 0;
+}
+h7 {
+	font-size: 17px;
+	font-weight: 400;
+    color: #ffffff;
+	margin: 0;
 }
 p {
 	font-size: 14px;
@@ -218,6 +229,44 @@ hr {
 .section-title h2, .section-title.center h2 {
 	margin-bottom: 30px;
 }
+/* Revolution Section */
+#revolution {
+	padding: 40px 0;
+	background: #f6f6f6;
+}
+#revolution .about-text {
+	margin-left: 10px;
+}
+#revolution H4 {
+	font-size: 20px;
+}
+#revolution li {
+	margin-bottom: 3px;
+	list-style: none;
+	padding: 0;
+	font-size: 13px;
+}
+#revolution li:before {
+	content: "✓";
+	font-weight: 600;
+	padding-right: 10px;
+	color: #e75926;
+}
+#revolution i.fa {
+	float: left;
+	display: block;
+	margin-right: 15px;
+	color: #fff;
+	font-size: 44px;
+	text-shadow: 0 0 1px #666;
+}
+#revolution img {
+	margin-top: 20px;
+}
+#revolution p {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
 /* About Section */
 #about {
 	padding: 140px 0;
@@ -289,6 +338,14 @@ hr {
 #works {
 	padding: 120px 0;
 	background: #f6f6f6;
+}
+#works1 {
+	padding: 60px 0;
+	background: #ff6600;
+}
+#works2 {
+	padding: 0px 0;
+	background: #b34700;
 }
 .categories {
 	padding-bottom: 30px;
@@ -462,6 +519,36 @@ img.img-thumbnail.team-img {
 	padding: 20px 0;
 	margin-top: 10px;
 }
+
+/* obiective Section */
+#obiective {
+	background: url(../img/testimonials-bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color: #ddd;
+	padding: 140px 0;
+}
+#obiective h2 {
+	color: #f6f6f6;
+}
+#obiective blockquote {
+	position: relative;
+	margin-top: 20px;
+	border: 0;
+	text-align: center;
+	color: rgba(255,255,255,0.8);
+}
+#obiective i {
+	font-size: 24px;
+	color: rgba(255,255,255,0.3);
+	margin-bottom: 14px;
+}
+#obiective .clients-name {
+	display: inline-block;
+	border-top: 1px solid rgba(255,255,255,0.3);
+	padding: 20px 0;
+	margin-top: 10px;
+} 
 /* Contact Section */
 #contact {
 	padding: 120px 0 40px 0;
@@ -588,3 +675,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-size: 5em;
 }
 }
+
+
+.services-section img {
+text-align: center;
+width: 90px;
+height: 90px;
+} 
